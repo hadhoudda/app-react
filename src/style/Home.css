@@ -1,0 +1,23 @@
+.cards{
+	
+    	background-color: #F6F6F6;
+    	padding: 50px;
+    	margin-top: 43px;
+    	border-radius: 25px;
+     	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 60px;
+	grid-row-gap: 50px;
+}
+
+
+@media screen and (max-width: 768px){
+	.cards{
+		background-color: white;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 20px;
+		padding: 0;
+		width: 100%;
+	}
+  }

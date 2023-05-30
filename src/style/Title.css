@@ -1,0 +1,11 @@
+.title-picture{
+      font-weight: 500;
+      font-size: 36px;
+}
+
+@media screen and (max-width: 768px){
+	.title-picture{
+            font-size: 18px;
+      }
+
+  }

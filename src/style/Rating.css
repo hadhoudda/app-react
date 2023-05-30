@@ -1,0 +1,13 @@
+.starSize{
+      width: 25px;
+      height: 25px;
+}
+
+@media screen and (max-width: 768px){
+	.starSize{
+            width: 13px;
+            height: 13px;
+            padding-bottom: 15px;
+      }
+
+  }
